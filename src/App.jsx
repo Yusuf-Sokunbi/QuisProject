@@ -1,7 +1,14 @@
+import Header from "./component/Header";
+import Quiz from "./component/Quiz";
+
 function App() {
 return (
-<header>
-<h1>QUIZ PROJECT</h1>
-</header>)
+    <>
+        <Header />
+        <main>
+          <Quiz />
+        </main>
+    </>
+)
 }
 export default App;
